@@ -1,0 +1,706 @@
+/*Base Screen size: 1903x937*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    background-color: rgb(253, 240, 220);
+    color: #8f6442;
+    font-family: "Caveat";
+    font-size: 46px;
+    width: max-content;
+    padding: 6px 15px 6px 12px;
+    border: 4px solid #8f6442;
+    border-radius: 10px;
+}
+
+#welcome {
+    background-color: rgb(253, 240, 220);
+    color: #8f6442;
+    font-family: "Caveat";
+    font-size: 34px;
+    padding: 6px 15px 6px 12px;
+    border: 4px solid #8f6442;
+    border-radius: 10px;
+    width: 449px;
+}
+
+#welcometxt {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.homeshrooms {
+    border: 3px solid #8f6442;
+    background-color: #8f6442;
+    padding: 1px;
+    border-radius: 10px;
+    width: 630px;
+    height: auto;
+}
+
+#blueshroom {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    border-bottom-left-radius: 0px;
+}
+
+#blueshroomtxt {
+    background-color: rgb(253, 240, 220);
+    color: #8f6442;
+    font-family: "Caveat";
+    font-size: 30px;
+    padding: 6px 15px 6px 12px;
+    border: 4px solid #8f6442;
+    border-radius: 10px;
+    width: max-content;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#glowshroom{
+    position: absolute;
+    top: 21%;
+    left: 69%;
+    border-bottom-left-radius: 0px;
+}
+
+#glowshroomtxt {
+    background-color: rgb(253, 240, 220);
+    color: #8f6442;
+    font-family: "Caveat";
+    font-size: 30px;
+    padding: 6px 15px 6px 12px;
+    border: 4px solid #8f6442;
+    border-radius: 10px;
+    width: max-content;
+    position: absolute;
+    top: 61.7%;
+    left: 69%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#redshroom {
+    position: absolute;
+    top: 78%;
+    left: 47%;
+    border-bottom-left-radius: 0px;
+}
+
+#redshroomtxt {
+    background-color: rgb(253, 240, 220);
+    color: #8f6442;
+    font-family: "Caveat";
+    font-size: 30px;
+    padding: 6px 15px 6px 12px;
+    border: 4px solid #8f6442;
+    border-radius: 10px;
+    width: max-content;
+    position: absolute;
+    top: 120%;
+    left: 47%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-bottom: 20px;
+}
+
+.secres {
+    background-color: rgb(253, 240, 220);
+    color: #8f6442;
+    font-family: "Caveat";
+    font-size: 28px;
+    padding: 6px 15px 6px 12px;
+    border: 4px solid #8f6442;
+    border-radius: 10px;
+    width: max-content;
+    position: absolute;
+    top: 88%;
+    left: 80%;
+}
+
+.secres:hover {
+    background-color: rgb(238, 227, 211);
+    color: #815d42;
+}
+
+body {
+    background-color: rgb(97, 146, 105);
+}
+
+#mySidenav {
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgb(253, 240, 220);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+#mySidenav a {
+    padding: 8px 8px 8px 25px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Caveat";
+    color: #8f6442;
+    display: block;
+    transition: .3s;
+}
+
+#mySidenav a:hover {
+    color: #815d42;
+    background-color: rgb(238, 227, 211);
+  }
+
+#mySidenav .closebtn {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    font-size: 50px;
+    font-family: "Caveat";
+    margin-left: 50px;
+    padding: 0px 15px 0px 11px;
+    text-decoration: none;
+    color: #8f6442;
+    transition: .3s;
+    background: none;
+    border: none;
+}
+
+#mySidenav .closebtn:hover {
+    color: #815d42;
+    background-color: rgb(238, 227, 211);
+}
+
+#mySidenavBG {
+    background-color: #8f6442;
+    font-family: "Caveat";
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.menubtn {
+    color: #8f6442;
+    background-color: rgb(253, 240, 220);
+    padding: 5px 12px 6px;
+    font-family: "Caveat";
+    font-size: 24px;
+    font-weight: bold;
+    border: 4px solid #8f6442;
+    border-radius: 10px;
+    width: max-content;
+    margin-top: 10px;
+    margin-left: 5px;
+    position: sticky;
+    top: 20px;
+    z-index: 1;
+}
+
+.menubtn:hover {
+    color: #815d42;
+    background-color: rgb(238, 227, 211);
+    animation-name: menubtn;
+    animation-duration: .5s;
+}
+
+@keyframes menubtn {
+    from {background-color: rgb(253, 240, 220);}
+    to {background-color: rgb(238, 227, 211);}
+    from {color: #8f6442;}
+    to {color: #815d42;}
+}
+
+.topnav {
+    display: none;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    position: relative;
+}
+
+#marginbot {
+    height: 100px;
+}
+
+
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 27%;
+    max-width: 600px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    font-size: 24px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    background: none;
+    border: none;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 3;
+    border: 4px solid #8f6442;
+    outline: none;
+    background-color: rgb(253, 240, 220);
+    color: #8f6442;
+    cursor: auto;
+    padding: 9px 13px 9px 9px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: "Caveat";
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(238, 227, 211);
+    color: #815d42;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 50%;
+    }
+  }
+
+@media screen and (max-height: 450px) {
+    #mySidenav {padding-top: 15px;}
+    #mySidenav a {font-size: 25px;}
+}
+
+@media screen and (max-width: 2000px) {
+    .homeshrooms {width: 550px}
+    
+    #blueshroom {left: 32%}
+    #blueshroomtxt {left: 32%; top: 36.5%;}
+
+    #glowshroom {left: 67%;}
+    #glowshroomtxt {left: 67%; top: 41.3%;}
+
+    #redshroom {left: 43%; top: 52%;}
+    #redshroomtxt {left: 43%; top: 88.4%;}
+
+    .secres {left: 79%; top: 70%;}
+
+    #marginbot {height: 0px;}
+}
+
+@media screen and (max-width: 1960px) {
+    h1 {margin-top: 10px;}
+
+    .menubtn {padding: 5px 12px 6px; font-size: 24px;}
+
+    .homeshrooms { width: 450px;}
+
+    #blueshroom {left: 36%; top: 5%;}
+    #blueshroomtxt {left: 36%; top: 35.6%;}
+
+    #glowshroom {left: 69%; top: 15%;}
+    #glowshroomtxt {left: 69%; top: 44.7%;}
+
+    #redshroom {left: 47%; top: 55.5%;}
+    #redshroomtxt {left: 47%; top: 86.2%;}
+
+    .secres {left: 80%;}
+
+    #marginbot {height: 0px;}
+}
+
+@media screen and (max-width: 1740px) {
+    .menubtn {padding: 6px 14px; font-size: 32px;}
+
+    #welcome {width: 500px;}
+
+    .homeshrooms {width: 400px;}
+
+    #blueshroom {left: 42%; top: 5.4%;}
+    #blueshroomtxt {left: 42%; top: 35.2%;}
+
+    #glowshroom {left: 71.5%; top: 37%;}
+    #glowshroomtxt {left: 71.5%; top: 65.8%;}
+
+    #redshroom {left: 42%; top: 68%;}
+    #redshroomtxt {left: 42%; top: 97.7%;}
+
+    .secres {left: 77%; top: 82%;}
+
+    #marginbot {height: 0px;}
+}
+
+@media screen and (max-width: 1710px) {
+    .menubtn {padding: 6px 14px; font-size: 32px;}
+
+    #welcome {width: 1100px;}
+
+    #blueshroom {left: 1.2%; top: 100%;}
+    #blueshroomtxt {left: 1.2%; top: 151.7%;}
+
+    #glowshroom {left: 34%; top: 100%;}
+    #glowshroomtxt {left: 34%; top: 150.1%;}
+
+    #redshroom {left: 65.8%; top: 100%;}
+    #redshroomtxt {left: 65.8%; top: 151.7%;}
+
+    .secres {left: 1.2%; top: 169%;}
+
+    #marginbot {height: 0px;}
+}
+
+@media screen and (max-width: 1680px) {
+    .menubtn {padding: 6px 14px; font-size: 32px;}
+
+    #welcome {width: 1100px;}
+
+    .homeshrooms {width: 370px;}
+
+    #blueshroom {left: 1.2%; top: 100%;}
+    #blueshroomtxt {left: 1.2%; top: 147.6%;}
+
+    #glowshroom {left: 32.4%; top: 100%;}
+    #glowshroomtxt {left: 32.4%; top: 146.5%;}
+
+    #redshroom {left: 63.6%; top: 100%;}
+    #redshroomtxt {left: 63.6%; top: 147.6%;}
+
+    .secres {left: 1.2%; top: 169%;}
+
+    #marginbot {height: 5%;}
+}
+
+@media screen and (max-width: 1520px) {
+    .menubtn {padding: 6px 14px; font-size: 32px;}
+
+    #welcome {width: 1000px;}
+
+    .homeshrooms {width: 320px;}
+
+    #blueshroom {left: 1.2%; top: 100%;}
+    #blueshroomtxt {left: 1.2%; top: 138.4%;}
+
+    #glowshroom {left: 31.8%; top: 100%;}
+    #glowshroomtxt {left: 31.8%; top: 137.2%;}
+
+    #redshroom {left: 62.2%; top: 100%;}
+    #redshroomtxt {left: 62.2%; top: 138.3%;}
+
+    .secres {left: 1.2%; top: 156%;}
+
+    #marginbot {height: 0px;}
+}
+
+@media screen and (max-width: 1435px) {
+    .menubtn {padding: 2px 9px 3px; font-size: 24px;}
+
+    #mySidenav a {font-size: 30px;}
+
+    #welcome {width: 500px;}
+
+    .homeshrooms {width: 320px;}
+
+    #blueshroom {left: 62.5%; top: 5%;}
+    #blueshroomtxt {left: 62.5%; top: 29%;}
+
+    #glowshroom {left: 62.5%; top: 41.3%;}
+    #glowshroomtxt {left: 62.5%; top: 64.6%;}
+
+    #redshroom {left: 62.5%; top: 76.1%;}
+    #redshroomtxt {left: 62.5%; top: 100.1%;}
+
+    .secres {left: 1.6%; top: 102.5%;}
+
+    #marginbot {height: 120px;}
+}
+
+@media screen and (max-width: 1180px) {
+    .menubtn {padding: 2px 9px 3px; font-size: 24px;}
+
+    #welcome {width: 500px;}
+
+    .homeshrooms {width: 528px;}
+
+    #blueshroom {position: static; margin-top: 20px; margin-bottom: -10px;}
+    #blueshroomtxt {position: static;}
+
+    #glowshroom {position: static; margin-top: 20px; margin-bottom: -10px;}
+    #glowshroomtxt {position: static;}
+
+    #redshroom {position: static; margin-top: 20px; margin-bottom: -10px;}
+    #redshroomtxt {position: static; margin-bottom: 100px;}
+
+    .secres {position: static; font-size: 30px;}
+
+    #marginbot {height: 50px;}
+
+    #caption {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menubtn {
+        display: none;
+    }
+
+    
+    #mySidenav, #mySidenavBG {
+        display: none;
+    }
+    
+    .topnav {
+        background-color: rgb(253, 240, 220);
+        overflow: hidden;
+        display: block;
+        border: 4px solid #8f6442;
+        border-radius: 10px;
+    }
+    
+    .topnav a {
+        float: left;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #8f6442;
+        font-family: "Caveat";
+    }
+    
+    .topnav a:hover {
+        background-color: rgb(238, 227, 211);
+        color: #815d42;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menubtn {
+        padding: 4px 11px; font-size: 30px;
+    }
+
+    h1 {
+        width: max-content; font-size: 40px;
+    }
+
+    #mySidenav, #mySidenavBG {
+        display: none;
+    }
+
+    #welcome {
+        width: 400px; font-size: 30px;
+    }
+
+    .homeshrooms {
+        width: 427px;
+    }
+
+    #blueshroom {
+        position: static; margin-top: 20px; margin-bottom: -10px;
+    }
+    #blueshroomtxt {
+        position: static;
+    }
+
+    #glowshroom {
+        position: static; margin-top: 20px; margin-bottom: -10px;
+    }
+    #glowshroomtxt {
+        position: static;
+    }
+
+    #redshroom {
+        position: static; margin-top: 20px; margin-bottom: -10px;
+    }
+    #redshroomtxt {
+        position: static; margin-bottom: 100px;
+    }
+
+    .secres {
+        position: static; font-size: 30px;
+    }
+
+    #marginbot {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .menubtn {padding: 4px 11px; font-size: 30px;}
+
+    h1 {width: 330px; font-size: 40px;}
+
+    #welcome {width: 330px; font-size: 30px;}
+
+    .homeshrooms {width: 330px;}
+
+    #blueshroom {position: static; margin-top: 20px; margin-bottom: -10px;}
+    #blueshroomtxt {position: static;}
+
+    #glowshroom {position: static; margin-top: 20px; margin-bottom: -10px;}
+    #glowshroomtxt {position: static;}
+
+    #redshroom {position: static; margin-top: 20px; margin-bottom: -10px;}
+    #redshroomtxt {position: static; margin-bottom: 100px;}
+
+    .secres {position: static; font-size: 30px;}
+
+    #marginbot {height: 50px;}
+
+    #caption {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 422px) {
+    .menubtn {padding: 5px 10px; font-size: 24px;}
+
+    h1 {width: 273px; font-size: 36px;}
+
+    #welcome {width: 273px;}
+
+    #welcometxt {font-size: 24px;}
+
+    .homeshrooms {width: 301px;}
+
+    #blueshroom {position: static; margin-top: 20px; margin-bottom: -10px;}
+    #blueshroomtxt {position: static;}
+
+    #glowshroom {position: static; margin-top: 20px; margin-bottom: -10px;}
+    #glowshroomtxt {position: static;}
+
+    #redshroom {position: static; margin-top: 20px; margin-bottom: -10px;}
+    #redshroomtxt {position: static; margin-bottom: 100px;}
+
+    .secres {position: static; font-size: 30px;}
+
+    #marginbot {height: 50px;}
+}
+
+@media screen and (max-width: 422px) {
+    h1, #welcome, .homeshrooms {
+        width: 100%;
+    }
+
+    #blueshroomtxt, #glowshroomtxt, #redshroomtxt {
+        font-size: 24px;
+    }
+
+    #main {
+        padding-left: 0;
+        padding-right: 35px;
+    }
+
+    .secres {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    #blueshroomtxt, #glowshroomtxt, #redshroomtxt {
+        font-size: 20px;
+    }
+
+    .secres {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 235px) {
+    #blueshroomtxt, #glowshroomtxt, #redshroomtxt {
+        font-size: 16px;
+    }
+
+    #caption {
+        font-size: 14px;
+    }
+}

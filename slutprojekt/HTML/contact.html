@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+    <head>
+
+        <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Contact</title>
+
+        <link rel="stylesheet" href="../CSS/contact.css" type="text/css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+        <meta name="description" content="Contact">
+
+    </head>
+
+    <body>
+
+         <!-- Use any element to open the sidenav -->
+         <button class="menubtn" onclick="openNav()">&#9776;</button>
+
+        <div id="mySidenav">
+            <button class="closebtn" onclick="closeNav()">&times;</button>
+            <a href="./index.html">Home</a>
+            <a href="./species.html">Mushroom Species</a>
+            <a href="./recipes.html">Recipes</a>
+            <a href="./about.html">About Me</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+
+        <div id="mySidenavBG"></div>
+
+        <div class="topnav">
+            <a href="./index.html">Home</a>
+            <a href="./species.html">Mushroom Species</a>
+            <a href="./recipes.html">Recipes</a>
+            <a href="./about.html">About Me</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+
+        <script src="../JS/navbar.js"></script>
+
+            <!-- All page content goes here -->
+        <div id="main">
+
+            <h1>Contact Me</h1>
+
+            <div class="column">
+                <div id="contact" class="row">
+                    <p id="contacttxt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+
+                    <p class="contactinfo">
+                        Name: Melker Hällström
+                    </p>
+        
+                    <p class="contactinfo">
+                        Mail Address: melker.h@gmail.com
+                    </p>
+        
+                    <p class="contactinfo">
+                        Phone Number: +4670-420 69 00
+                    </p>
+                </div>
+            </div>
+
+            <div class="column">
+                <img id="contactfungus" class="row" src="./Images/contactfungus.jpg" alt="Multiple layers of flat mushroom on the side of a tree">
+                <img id="contactfungus2" class="row" src="./Images/contactfungus2.jpg" alt="Three toadstools">
+            </div>
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top please!</button>
+
+           <script src="../JS/totop.js"></script>
+
+        </div>
+
+    </body>
+
+    <footer>
+        <div id="marginbot"></div>
+    </footer>
+
+</html>

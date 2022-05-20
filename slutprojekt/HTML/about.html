@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+    <head>
+
+        <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>About Me</title>
+
+        <link rel="stylesheet" href="../CSS/about.css" type="text/css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+        <meta name="description" content="About Me">
+
+    </head>
+
+    <body>
+
+        <!-- Use any element to open the sidenav -->
+        <button class="menubtn" onclick="openNav()">&#9776;</button>
+
+        <div id="mySidenav" class="sidenav">
+            <button class="closebtn" onclick="closeNav()">&times;</button>
+            <a href="./index.html">Home</a>
+            <a href="./species.html">Mushroom Species</a>
+            <a href="./recipes.html">Recipes</a>
+            <a href="./about.html">About Me</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+
+        <div id="mySidenavBG" class="sidenavbg"></div>
+
+        <script src="../JS/navbar.js"></script>
+
+        <div class="topnav">
+            <a class="active" href="./index.html">Home</a>
+            <a href="./species.html">Mushroom Species</a>
+            <a href="./recipes.html">Recipes</a>
+            <a href="./about.html">About Me</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+        <div id="main">
+
+            <h1>About Me</h1>
+
+            <div id="aboutme">
+                <p id="aboutmetxt">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="row">
+             
+                <div class="column">
+                    <img class="aboutfungus" src="./Images/aboutfungus.jpg" alt="Fungus on a lof facing the camera">
+                </div>
+
+                <div class="column" id="fungus2">
+                    <img class="aboutfungus" src="./Images/aboutfungus2.jpg" alt="Fungus on a lof facing the camera">
+                </div>
+
+                <div class="column" id="fungus3">
+                    <img class="aboutfungus" src="./Images/aboutfungus3.jpg" alt="Fungus on a lof facing the camera">
+                </div>
+            
+            </div>
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top please!</button>
+
+           <script src="../JS/totop.js"></script>
+
+        </div>
+
+    </body>
+
+    <footer>
+        <div id="marginbot"></div>
+    </footer>
